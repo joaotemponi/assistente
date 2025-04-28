@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Assistente Falante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="character-area">
+        <img id="characterListening" src="images/ouvindo.png" style="display: none;">
+        <img id="characterWaiting" src="images/ouvindo.png" style="display: none;">
+        <img id="characterMouthClosed" src="images/falandoUm.png" style="display: block;">
+        <img id="characterMouthOpen" src="images/falandoDois.png" style="display: none;">
+    </div>
+
+    <div id="speech-bubble">Clique em "Falar" e diga algo!</div>
+    <button id="stopSpeakingButton" style="display:none;">Parar de Falar</button>
+
+
+    <button id="talkButton">🎤 Falar</button>
+    <button id="stopButton" style="display: none;">⏸️ Parar Fala</button>
+</div>
+
+<script src="assistente.js"></script>
+
+</body>
+</html>
